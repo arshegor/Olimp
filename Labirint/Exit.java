@@ -21,7 +21,7 @@ public class Exit {
         for (int i = 0; i < second.length; i++){
             for (int j = 0; j < second[i].length; j++) {
                 char[] chars = first[i].toCharArray();
-                //System.out.println(Arrays.toString(chars));
+                
                 second[i][j] = String.valueOf(chars[j]);
             }
         }
@@ -49,8 +49,8 @@ public class Exit {
         int stepY;
 
         String[][] second = splitter(str);
-        System.out.println();
-        System.out.println(second[1][0]);
+        
+        
         for (int i = 0; i < second.length; i++) {
             for (int j = 0; j < second[i].length; j++) {
                 if (second[i][j].equals("@")) {
